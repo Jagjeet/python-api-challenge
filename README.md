@@ -55,4 +55,6 @@ The WeatherPy analysis made use of the following concepts and links in addition 
 
 ### VacationPy References
 
-* TBD
+#### GMap Marker Documentation
+
+* https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html#drawing-markers-lines-and-polygons
