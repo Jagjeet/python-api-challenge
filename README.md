@@ -18,8 +18,11 @@ To run this project the following tools are needed:
 ## Usage
 
 * Clone the respository
-* Rename `api_keys.py.sample` to `api_keys.py`. Add your own API keys. 
-* Open and run the `WeatherPy.ipynb` and `VacationPy.ipynb` respectively from Jupyter Notebook or Jupyter Labs. Note running `VacationPy.ipynb` without running `WeatherPy` first will map existing data from an existing `city_weather.csv`. For more current data, overwrite the `city_weather.csv` using the first cells in the `WeatherPy.ipynb` notebook.
+* Rename `api_keys.py.sample` to `api_keys.py`. Add your own API keys following instructions on the sites above.
+* Open and run the `WeatherPy.ipynb` and `VacationPy.ipynb` respectively from Jupyter Notebook or Jupyter Labs.
+  * Note running `VacationPy.ipynb` without running `WeatherPy` first will map existing data from an existing `output_data/cities.csv`. For more current data, overwrite the `output_data/cities.csv` using the first cells in the `WeatherPy.ipynb` notebook.
+  * A secondary set of data can be found in `output_data/cities2.csv`.
+  * Saved images of the `WeatherPy.ipynb` plots can be found in the `images` directory
 
 ## Known Issues
 
@@ -45,6 +48,10 @@ The WeatherPy analysis made use of the following concepts and links in addition 
 * https://stackoverflow.com/questions/42400529/convert-seconds-to-datetime-without-dropping-the-microsecond-precision-using-p
 * https://www.programiz.com/python-programming/datetime/strftime
 * https://stackoverflow.com/questions/54350585/python-convert-2-digit-4-digit-year
+
+#### Saving most recently used plot as image
+
+ * https://stackoverflow.com/questions/18992086/save-a-pandas-series-histogram-plot-to-file
 
 ### VacationPy References
 
